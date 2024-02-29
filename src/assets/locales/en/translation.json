@@ -1,0 +1,65 @@
+{
+  "navigation": {
+    "header": {
+      "terms": "Terms of Service",
+      "news": "Diia City news and publications",
+      "contacts": "Contacts"
+    },
+    "footer": {
+      "phone": "Phone",
+      "email": "Email",
+      "about": {
+        "diia": "About Diia City",
+        "quickDraft": "About QuickDraft"
+      }
+    }
+  },
+  "auth": {
+    "auth": "Authorization",
+    "client": "Client",
+    "code": "Code",
+    "error": "Incorrect client or code!",
+    "isActiveError": "Your account is being disabled.",
+    "accessCode": "How to get an access code?",
+    "craft": "Craft",
+    "helper": {
+      "name": "QuickDraft",
+      "text1": "constructor of agreements is a paid service of Sayenko Kharenko Law Firm (Ukraine). For more terms of the service, please read the",
+      "text2": "and email us at",
+      "text3": "or call the phone numbers indicated on this webpage. We look forward to being of assistanceto your IT/tech business in Ukraine!"
+    },
+    "cookie": {
+      "title": "Notification cookies",
+      "text1": "We use cookies to analyze the behavior of visitors",
+      "text2": "of our website and improve it. By using our website, you consent to these cookies in accordance with our",
+      "link": "Cookie Policy"
+    }
+  },
+  "create": {
+    "progressBar": {
+      "progress": "Draft progress"
+    },
+    "nav": {
+      "back": "Go Back",
+      "next": "Next Step"
+    },
+    "comments": {
+      "caption": "Show Comments",
+      "header": "SK COMMENTS",
+      "collapse": "Collapse",
+      "open": "Expand"
+    },
+    "error": "Please, choose the all questions!"
+  },
+  "preview": {
+    "caption": "Preview of the contract",
+    "send": "Send to my email above",
+    "return": "Return to choises",
+    "or": "or",
+    "error": "Please, fill in your email!",
+    "popup": {
+      "text1" : "Thank you for using ",
+      "text2" : "service! The crafted agreement is on its way to your email inbox. Delivery may take about ten minutes, but please let us know if it does not come through. We look forward to being of service to you in the future."
+    }
+  }
+}

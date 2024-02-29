@@ -1,0 +1,25 @@
+@media (min-width: 1021px) {
+  .display-table {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 1020px) {
+  .display-table {
+    margin-left: calc(100vw/25);
+    margin-right: calc(100vw/25);
+  }
+}
+
+@media (max-width: 600px) {
+  .display-table {
+
+    overflow-y: scroll;
+    width: 100%;
+
+  }
+}
+
+.document-table {
+  display: none;
+}

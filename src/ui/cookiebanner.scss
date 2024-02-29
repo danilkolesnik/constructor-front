@@ -1,0 +1,107 @@
+.cookies-popup {
+  @media (min-width: 1024px) {
+    z-index: 999;
+    position: fixed;
+    width: 533px;
+    background: #fff;
+    border-radius: 13.9136px;
+    bottom: 29px;
+    right: 29px;
+    filter: drop-shadow(0px 0px 20px rgba(53, 54, 78, 0.15));
+    transition: opacity .3s;
+  }
+  @media (max-width: 1024px) {
+    z-index: 999;
+    position: fixed;
+    width: 333px;
+    background: #fff;
+    border-radius: 13.9136px;
+    bottom: 29px;
+    right: 29px;
+    filter: drop-shadow(0px 0px 20px rgba(53, 54, 78, 0.15));
+    transition: opacity .3s;
+  }
+  &__close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    user-select: none;
+    cursor: pointer;
+  }
+  &__body {
+    padding: 42px 45px;
+  }
+  &__title {
+    font-family: "Basis Grotesque Pro",sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35px;
+    color: #0c1741;
+    margin-bottom: 17px;
+  }
+  &__text {
+    font-family: "Basis Grotesque Pro",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #35354e;
+    margin-bottom: 33px;
+  }
+  &__link {
+    text-decoration: none;
+    color: #ED1847;
+  }
+}
+
+.accept-cookies-button {
+  @media (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 55px;
+    background-color: #35354e;
+    padding: 0 31px;
+    border: none;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    opacity: 1;
+    font-family: "Basis Grotesque Pro",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity 0.4s,background-color 0.4s;
+    transition: opacity 0.4s,background-color 0.4s;
+  }
+  @media (max-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 35px;
+    background-color: #35354e;
+    padding: 0 31px;
+    border: none;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    opacity: 1;
+    font-family: "Basis Grotesque Pro",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity 0.4s,background-color 0.4s;
+    transition: opacity 0.4s,background-color 0.4s;
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "constructor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "buffer": "^6.0.3",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "escape-html": "^1.0.3",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "html-to-docx": "1.5.0",
+    "http-proxy-middleware": "^2.0.6",
+    "i18next": "^22.4.9",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.1.1",
+    "jsdocx": "^0.4.5",
+    "jspdf": "^2.5.1",
+    "jszip": "^3.10.1",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "react": "^18.2.0",
+    "react-cookie-banner": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.55.0",
+    "slate": "^0.88.1",
+    "stream": "^0.0.2",
+    "styled-components": "^5.3.6",
+    "swiper": "^8.4.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.7.1"
+  },
+  "compilerOptions": {
+    "baseUrl": "src"
+  }
+}
